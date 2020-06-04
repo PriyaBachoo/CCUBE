@@ -43,6 +43,13 @@ p{
    margin:0 2% 20px;
  }
 
+ /* Media queries */
+
+ @media (min-width: 320px) {
+    .container {
+      width: 320px;
+    }
+  
  @media (min-width: 768px){
    .container {
      width: 750px;
